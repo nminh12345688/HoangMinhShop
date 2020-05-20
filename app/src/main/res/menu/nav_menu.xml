@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navHome"
+            android:checkable="false"
+            android:icon="@drawable/ic_home"
+            android:title="Trang chủ" />
+        <item
+            android:id="@+id/navPants"
+            android:checkable="false"
+            android:icon="@drawable/ic_pants"
+            android:title="Quần" />
+        <item
+            android:id="@+id/navShirt"
+            android:checkable="false"
+            android:icon="@drawable/ic_shirt"
+            android:title="Áo" />
+
+        <item
+            android:id="@+id/navDress"
+            android:checkable="false"
+            android:icon="@drawable/ic_dress"
+            android:title="Váy" />
+        <item
+            android:id="@+id/navSkirt"
+            android:checkable="false"
+            android:icon="@drawable/ic_skirt"
+            android:title="Chân váy" />
+    </group>
+
+    <group android:id="@+id/bottom">
+        <item
+            android:id="@+id/navSignOut"
+            android:checkable="false"
+            android:icon="@drawable/ic_sign_out"
+            android:title="Đăng xuất" />
+    </group>
+</menu>

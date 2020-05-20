@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hoàng Minh Shop</string>
+    <string name="open">Mở</string>
+    <string name="close">Đóng</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_up">Bạn chưa có tài khoản? <u>Đăng ký</u></string>
+    <string name="retry">Đã có lỗi xảy ra! <u>Thử lại</u></string>
+</resources>
